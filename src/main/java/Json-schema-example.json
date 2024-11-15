@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "typeCode": {
+      "type": "string"
+    },
+    "subTypeCode": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "actionCode": {
+      "type": "string"
+    },
+    "entityData": {
+      "type": "object",
+      "properties": {
+        "TYPE_CODE": {
+          "type": "string"
+        },
+        "SUB_TYPE_CODE": {
+          "type": "string"
+        },
+        "REFERENCE_ID": {
+          "type": "string"
+        },
+        "RATE_TYPE": {
+          "type": "string"
+        },
+        "SCOPE_LEVEL": {
+          "type": "string"
+        },
+        "ACTIVE_CODE": {
+          "type": "string"
+        },
+        "FG_CUTOFF_TIME": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "TRIGGER_ON": {
+                "type": "string"
+              },
+              "TRIGGER_STAGE": {
+                "type": "string"
+              },
+              "TRIGGER_STATUS": {
+                "type": "string"
+              },
+              "DAY_SCOPE": {
+                "type": "string"
+              },
+              "SCOPE_TYPE": {
+                "type": "string"
+              },
+              "START_TIME": {
+                "type": "string"
+              },
+              "END_TIME": {
+                "type": "string"
+              },
+              "DAY_OF_WEEK": {
+                "type": "string"
+              },
+              "DAY_OF_MONTH": {
+                "type": "string"
+              },
+              "DATE_VALUE": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "SCOPE_VALUE": {
+                "type": "string"
+              },
+              "START_HOUR": {
+                "type": "string"
+              },
+              "START_MINUTE": {
+                "type": "string"
+              },
+              "END_MINUTE": {
+                "type": "string"
+              },
+              "END_HOUR": {
+                "type": "string"
+              },
+              "formattedDateField_DATE_VALUE": {
+                "type": "string"
+              },
+              "AGE": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "TRIGGER_ON",
+              "TRIGGER_STAGE",
+              "TRIGGER_STATUS",
+              "DAY_SCOPE",
+              "SCOPE_TYPE",
+              "START_TIME",
+              "END_TIME",
+              "DATE_VALUE",
+              "SCOPE_VALUE",
+              "START_HOUR",
+              "START_MINUTE",
+              "END_MINUTE",
+              "END_HOUR",
+              "formattedDateField_DATE_VALUE",
+              "AGE"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "DATE_VALUE": {
+          "type": "string"
+        },
+        "DAY_OF_MONTH": {
+          "type": "string"
+        },
+        "DAY_OF_WEEK": {
+          "type": "string"
+        },
+        "ENTITY_CODE": {
+          "type": "string"
+        },
+        "MK_ACTION": {
+          "type": "string"
+        },
+        "CK_ACTION": {
+          "type": "string"
+        },
+        "START_TIME": {
+          "type": "string"
+        },
+        "END_TIME": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        },
+        "actionCode": {
+          "type": "string"
+        },
+        "IS_TEMPLATE": {
+          "type": "boolean"
+        },
+        "AGE": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "TYPE_CODE",
+        "SUB_TYPE_CODE",
+        "REFERENCE_ID",
+        "RATE_TYPE",
+        "SCOPE_LEVEL",
+        "ACTIVE_CODE",
+        "FG_CUTOFF_TIME",
+        "DATE_VALUE",
+        "DAY_OF_MONTH",
+        "DAY_OF_WEEK",
+        "ENTITY_CODE",
+        "MK_ACTION",
+        "CK_ACTION",
+        "START_TIME",
+        "END_TIME",
+        "action",
+        "actionCode",
+        "IS_TEMPLATE",
+        "AGE"
+
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "typeCode",
+    "subTypeCode",
+    "action",
+    "actionCode",
+    "entityData"
+  ],
+  "additionalProperties": false
+}

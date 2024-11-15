@@ -1,0 +1,50 @@
+{
+  "typeCode": "FG_CORE",
+  "subTypeCode": "FG_SETTING_CUTOFF",
+  "action": "Submit",
+  "actionCode": "Submit",
+  "entityData": {
+    "TYPE_CODE": "FG_CORE",
+    "SUB_TYPE_CODE": "FG_SETTING_CUTOFF",
+    "REFERENCE_ID": "ENT202411121170087",
+    "RATE_TYPE": "Entity",
+    "SCOPE_LEVEL": "Global",
+    "ACTIVE_CODE": "ACTV",
+    "FG_CUTOFF_TIME": [
+      {
+        "TRIGGER_ON": "Pre",
+        "TRIGGER_STAGE": "INITIATION",
+        "TRIGGER_STATUS": "NEW",
+        "DAY_SCOPE": "Date",
+        "SCOPE_TYPE": "General",
+        "START_TIME": "12:00",
+        "END_TIME": "12:00",
+        "DAY_OF_WEEK": "",
+        "DAY_OF_MONTH": "",
+        "DATE_VALUE": "2024-11-22T00:00:00.000Z",
+        "SCOPE_VALUE": "General",
+        "START_HOUR": "12",
+        "START_MINUTE": "00",
+        "END_MINUTE": "00",
+        "END_HOUR": "12",
+        "formattedDateField_DATE_VALUE": "22-Nov-2024",
+        "AGE": "28"
+      }
+    ],
+    "DATE_VALUE": "",
+    "DAY_OF_MONTH": "",
+    "DAY_OF_WEEK": "",
+    "ENTITY_CODE": "FG_SOLUTION",
+    "MK_ACTION": "DENY",
+    "CK_ACTION": "REJECT",
+    "START_TIME": "undefined:undefined",
+    "END_TIME": "undefined:undefined",
+    "action": "Submit",
+    "actionCode": "Submit",
+    "IS_TEMPLATE": false,
+    "AGE": "28",
+    "hi":"sfgk",
+    "ji": 90
+
+  }
+}
